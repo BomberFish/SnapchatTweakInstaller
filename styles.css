@@ -31,6 +31,11 @@
   filter: invert(28%) sepia(81%) saturate(2278%) hue-rotate(200deg) brightness(102%) contrast(107%);
 }
 
+#header {
+  border-bottom: 1.25px solid var(--gray4);
+  width: 100%;
+}
+
 #get {
   background-color: var(--blue);
   appearance: none;
