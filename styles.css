@@ -28,7 +28,7 @@
   background-repeat: no-repeat;
   width: 3em;
   height: 3em;
-  filter: brightness(0) saturate(100%) invert(28%) sepia(81%) saturate(2278%) hue-rotate(200deg) brightness(102%) contrast(107%);
+  filter: invert(28%) sepia(81%) saturate(2278%) hue-rotate(200deg) brightness(102%) contrast(107%);
 }
 
 #get {
@@ -53,6 +53,10 @@
   font-weight: 400;
   font-size: 1.1rem;
   color: var(--gray1);
+}
+
+#icon {
+  margin-left: -5px
 }
 
 @media (prefers-color-scheme: dark) {
