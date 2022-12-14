@@ -36,6 +36,14 @@
   width: 100%;
 }
 
+code {
+  font-family: ui-monospace, 'SF Mono', SFMono, Menlo, Monaco, monospace;
+  padding: 0.25em 0.5em;
+  background-color: rgba(128, 128, 128, 0.15);
+  border-radius: 10px;
+  font-size: 1.05em;
+}
+
 #get {
   background-color: var(--blue);
   appearance: none;
@@ -110,4 +118,118 @@ body {
   src: local('SF Mono'), url("./fonts/SFNSMono.woff2") format("woff2");
   /* (C) 2019 Apple Inc. All rights reserved.
 */
+}
+
+@-webkit-keyframes alert {
+  0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+  }
+
+  5% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  10% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
+  }
+
+  15% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  20% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
+  }
+
+  25% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  30% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
+  }
+
+  35% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  40% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
+  }
+
+  45% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  50% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+  }
+}
+
+@keyframes alert {
+  0% {
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+  }
+
+  5% {
+      -ms-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  10% {
+      -ms-transform: translateX(10px);
+      transform: translateX(10px);
+  }
+
+  15% {
+      -ms-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  20% {
+      -ms-transform: translateX(10px);
+      transform: translateX(10px);
+  }
+
+  25% {
+      -ms-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  30% {
+      -ms-transform: translateX(10px);
+      transform: translateX(10px);
+  }
+
+  35% {
+      -ms-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  40% {
+      -ms-transform: translateX(10px);
+      transform: translateX(10px);
+  }
+
+  45% {
+      -ms-transform: translateX(-10px);
+      transform: translateX(-10px);
+  }
+
+  50% {
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+  }
 }
