@@ -1,0 +1,104 @@
+:root {
+  --gray1: rgb(142, 142, 147);
+  --gray2: rgb(174, 174, 178);
+  --gray3: rgb(199, 199, 204);
+  --gray4: rgb(209, 209, 214);
+  --gray5: rgb(229, 229, 234);
+  --gray6: rgb(242, 242, 247);
+  --label: rgb(0, 0, 0);
+  --red: rgb(255, 59, 48);
+  --green: rgb(52, 199, 89);
+  --blue: rgb(0, 122, 255);
+  --yellow: rgb(255, 204, 0);
+  --orange: rgb(255, 149, 0);
+}
+
+#share {
+  appearance: none;
+  background: none;
+  border: none;
+  color: var(--blue);
+  font-size: 1em;
+  position: absolute;
+  right: 3%;
+  top: 10%;
+  background-image: url("images/share.png");
+  background-position: center;
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  width: 3em;
+  height: 3em;
+  filter: brightness(0) saturate(100%) invert(28%) sepia(81%) saturate(2278%) hue-rotate(200deg) brightness(102%) contrast(107%);
+}
+
+#get {
+  background-color: var(--blue);
+  appearance: none;
+  border: none;
+  width: 3.5em;
+  border-radius: 2em;
+  color: rgb(255, 255, 255);
+  padding: 0.5em 0.8em;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  transition: background 0.35s cubic-bezier(0.4, 0, 0.2, 0), width 0.28s cubic-bezier(0.4, 0, 0.2, 0);
+}
+
+.subtitle {
+  margin-block: 0.1rem!important;
+  margin: 0.1rem 0px!important;
+  display: inline;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--gray1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+     --gray2: rgb(99, 99, 102);
+     --gray3: rgb(72, 72, 74);
+     --gray4: rgb(58, 58, 60);
+     --gray5: rgb(44, 44, 46);
+     --gray6: rgb(28, 28, 30);
+     --label: rgb(255, 255, 255);
+     --red: rgb(255, 69, 58);
+     --green: rgb(52, 209, 88);
+     --blue: rgb(10, 132, 255);
+     --yellow: rgb(255, 214, 10);
+     --orange: rgb(255, 159, 10);
+ }
+}
+
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'SF', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji';
+  background-color: var(--gray6);
+  color: var(--label);
+  overflow-y: scroll;
+  margin: 2rem;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'SF';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SF Pro'), url("./fonts/SFNS.woff2") format("woff2");
+  /* (C) 2019 Apple Inc. All rights reserved.
+*/
+}
+
+@font-face {
+  font-family: 'SFMono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SF Mono'), url("./fonts/SFNSMono.woff2") format("woff2");
+  /* (C) 2019 Apple Inc. All rights reserved.
+*/
+}

@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Snapchat++ Installer">
+    <meta property="og:image" content="https://bomberfish.ca/SnapchatTweakInstaller/icon.png">
+    <meta property="og:url" content="http://bomberfish.ca/SnapchatTweakInstaller">
+    <meta property="og:description" content="Install Snapchat++ easily">
+    <meta property="og:site_name" content="BomberFish">
+    <title>Snapchat++ - bomberfish.ca</title>
 </head>
+
 <body>
-  <div class="container">
-  <button onclick="window.location.href='itms-services://?action=download-manifest&url=https://bomberfish.ca/SnapchatTweakInstaller/snap.plist'">install it lol</button>
-</div>
+    <div class="container">
+        <img src="icon.png" style=" border-radius: 20px;" width="80px" height="80px" style="display: inline;">
+        <h1 style="display: inline-flex; margin-top: -10px; font-size: 50px; transform: translateY(-20px);">&nbsp;&nbsp;&nbsp;&nbsp;Snapchat++</h1><br>
+        <h5 class="subtitle">Includes screenshot suppression, ghost mode, and more</h5> <button id="share"></button><br><br>
+        <button id="get" onclick='buttonClick(document.getElementById("get"))'>Get</button><br><br><br>
+        <div id="faq">
+          <h2>Frequently asked questions:</h2>
+          Q: What features does this mod add?<br>
+          A: It adds screenshot suppression (so no-one will be notified if you screenshot their snap), ghost mode (so you can see snaps without marking them as read), and a lot more features.
+          <br><br>
+          Q: Help! It's not opening and says the integrity couldn't be verified!<br>
+          A: That means the certificate I use got revoked by Apple. If you want to report a revoke, please email me at <a href="mailto:support@bomberfish.ca">support@bomberfish.ca</a> so I can get it up and running again.
+          <br><br>
+          Q: Will my Snapchat account get banned?<br>
+          A: As with all modded apps, there is no guarantee that you be safe from a ban. However, these bans are exceedingly rare.
+          <br><br>
+          Q: Help! It doesn't open and says it needs to verify the app!<br>
+          A: Apple most likely blacklisted your device from the certificate. You can either wait for it to be resigned after a revoke or you can factory reset your device, which usually works.<br>
+          
+      </div>
+        <div id="tutorial">
+            <h2>Installation guide</h2>
+            <ul type="circle">
+                <li>Click the install button on this page</li>
+                <li>When prompted, press install again</li>
+                <br><img class="tutorialimg" src="images/prompt.png" width="270" height="126"><br>
+                <li>Once installed, go to the Settings app</li>
+                <li>Click on General, then scroll down to "VPN & Device Management" and click on it</li>
+                <li>Click on the item below "Enterprise App"</li><br>
+                <img class="tutorialimg" src="images/enterprise.jpeg" width="320" height="78">
+                <li>Click on Trust "&lt;Name of certificate&gt;"</li>
+                <br><img class="tutorialimg" src="images/trust.png" width="302" height="297"><br>
+                <li>Once prompted again, press Trust</li>
+                <br><img class="tutorialimg" src="images/confirmation.png" width="302" height="297"><br>
+            </ul>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
+
 </html>
