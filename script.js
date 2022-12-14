@@ -13,3 +13,7 @@ function buttonClick(element) {
   element.innerHTML = "Install"
   element.classList.add("clicked");
 }
+
+document.getElementById("share").addEventListener('click', async () => {
+  await navigator.share(shareData);
+});
