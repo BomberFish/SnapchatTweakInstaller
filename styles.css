@@ -93,8 +93,8 @@ body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, 'SF', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji';
   background-color: var(--gray6);
   color: var(--label);
-  text-overflow: ellipsis;
   margin: 2rem;
+  width: 100%;
 }
 
 
