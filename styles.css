@@ -94,7 +94,10 @@ body {
   background-color: var(--gray6);
   color: var(--label);
   overflow-y: scroll;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
   margin: 2rem;
+  width: 100%;
 }
 
 
