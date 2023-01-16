@@ -61,7 +61,7 @@ a:visited {
 
 #header {
     border-bottom: 1.25px solid var(--gray4);
-    width: 100%;
+    max-width: 100%;
 }
 
 code {
@@ -218,4 +218,9 @@ body {
         -ms-transform: translateX(0);
         transform: translateX(0);
     }
+}
+
+* {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
