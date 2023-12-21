@@ -33,12 +33,20 @@
     }
 }
 
+#deprecation-notice {
+    color: var(--yellow);
+}
+
 a {
   color: var(--blue);
 }
 
 a:visited {
   color: var(--indigo);
+}
+
+.deprecated {
+    filter: grayscale(100%) brightness(0.7);
 }
 
 #share {
